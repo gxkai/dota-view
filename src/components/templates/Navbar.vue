@@ -20,11 +20,10 @@ const { isMenuOpen } = toRefs(state)
     <Logo />
     <div class="nav-menu md:translate-x-0" :class="!isMenuOpen && 'translate-x-full'">
       <ul class="nav-menu-list">
-        <MenuItem title="store" active />
-        <MenuItem title="news" />
-        <MenuItem title="faq" />
-        <MenuItem title="help" />
-        <MenuItem title="unreal engine" />
+        <MenuItem title="store" active href="store"/>
+        <MenuItem title="news" href="news"/>
+        <MenuItem title="faq" href="faq"/>
+        <MenuItem title="help" href="help"/>
       </ul>
       <div class="nav-second-menu shadow-top md:shadow-none">
         <div

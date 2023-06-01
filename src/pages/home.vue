@@ -17,7 +17,6 @@ const changeTab = (tabIndex: any) => {
             <TabMenu />
             <SearchInput />
             <MobileSearch />
-            <MobileTabMenu />
           </TabList>
         </div>
         <div class="md:container">

@@ -5,7 +5,7 @@ import SignIn from "@/pages/signin.vue";
 import SignUp from "@/pages/signup.vue";
 
 const routes = [
-  { path: "/", component: Home },
+  { path: "/", alias: '/store',component: Home },
   { path: "/signin", component: SignIn },
   { path: "/signup", component: SignUp },
 ];

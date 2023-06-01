@@ -1,7 +1,5 @@
 module.exports = {
-  purge: ["./index.html", "./src/**/*.{vue,js,ts}"],
-  darkMode: "class", // or 'media' or 'class'
-  mode: "jit",
+  content: ["./index.html", "./src/**/*.{vue,js,ts}"],
   theme: {
     container: {
       center: true,
@@ -37,7 +35,5 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [
-    require('@tailwindcss/line-clamp'),
-  ],
+  plugins: [],
 };
