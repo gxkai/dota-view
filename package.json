@@ -1,15 +1,18 @@
 {
-  "name": "epicgames-clone",
+  "name": "layout",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "build:module": "cross-env BUILD_MODULE=1 vite build"
   },
   "dependencies": {
     "@headlessui/vue": "1.7.13",
     "swiper": "^7.0.8",
+    "ui": "workspace:0.0.0",
     "vue": "3.3.4",
+    "vue-module-loader": "3.5.0",
     "vue-router": "4.2.2"
   },
   "devDependencies": {
