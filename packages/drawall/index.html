@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Epic Games Clone by hudadamar21</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/svg+xml" href="/icons/axis-locked.svg"/>
+    <link rel="stylesheet" type="text/css" href="/main.css"/>
+    <link rel="stylesheet" type="text/css" href="/gui.css"/>
+    <link rel="stylesheet" type="text/css" href="/popup.css"/>
+  </head>
+  <body>
+  <div class="titlebar"></div>
+  <div class="topbar"></div>
+  <div class="toolbar"></div>
+  <div class="canvas-wrap">
+    <svg id="background-svg" width="100" height="100" xmlns="http://www.w3.org/2000/svg"></svg>
+    <div id="reference-images"></div>
+    <canvas id="back-canvas" width="100" height="100"></canvas>
+    <div id="furniture-images"></div>
+    <canvas id="main-canvas" width="100" height="100"></canvas>
+    <svg id="foreground-svg" width="100" height="100" xmlns="http://www.w3.org/2000/svg"></svg>
+  </div>
+  <div id="ui-jail"></div>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
